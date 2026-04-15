@@ -3,8 +3,10 @@ pi:
   role: Professor
   email: dongchan.jang@kaist.ac.kr
   phone: +82-42-350-3813
+  img: pic_prof.png
 
 phd:
 - name: Jihun Jung
   course: Ph.D. Candidate
   research: Nanomechanics, NanoDMA, Micropillar testing
+  img: pic_jihun.jpg
