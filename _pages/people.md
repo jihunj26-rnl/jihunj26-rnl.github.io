@@ -55,7 +55,7 @@ nav_order: 2
 <div class="people-grid">
 {% raw %}{% for person in site.data.people.pi %}{% endraw %}
   <div class="person-card">
-    <img src="{% raw %}{{ '/assets/img/' | append: pic_prof.png | relative_url }}{% endraw %}" alt="{% raw %}{{ person.name }}{% endraw %}">
+    <img src="{% raw %}{{ '/assets/img/photos' | append: pic_prof.png | relative_url }}{% endraw %}" alt="{% raw %}{{ person.name }}{% endraw %}">
     <div class="person-name">{% raw %}{{ person.name }}{% endraw %}</div>
     <div class="person-role">{% raw %}{{ person.role }}{% endraw %}</div>
     <div class="person-email">{% raw %}{{ person.email }}{% endraw %}</div>
@@ -70,7 +70,7 @@ nav_order: 2
 <div class="people-grid">
 {% raw %}{% for person in site.data.people.pi %}{% endraw %}
   <div class="person-card">
-    <img src="{% raw %}{{ '/assets/img/' | append: pic_jihun.jpg | relative_url }}{% endraw %}" alt="{% raw %}{{ person.name }}{% endraw %}">
+    <img src="{% raw %}{{ '/assets/img/photos' | append: pic_jihun.jpg | relative_url }}{% endraw %}" alt="{% raw %}{{ person.name }}{% endraw %}">
     <div class="person-name">{% raw %}{{ person.name }}{% endraw %}</div>
     <div class="person-role">{% raw %}{{ person.role }}{% endraw %}</div>
     <div class="person-email">{% raw %}{{ person.email }}{% endraw %}</div>
